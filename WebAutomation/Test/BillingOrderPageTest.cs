@@ -41,6 +41,7 @@ namespace WebAutomation.Test
             orderPage.Login();
             orderPage.FillForm(record);
             orderPage.Submit();
+            orderPage.Validate();
         }
     }
 }
